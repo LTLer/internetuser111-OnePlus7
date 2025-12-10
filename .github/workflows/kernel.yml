@@ -41,7 +41,7 @@ jobs:
       KERNEL_REPO: ${{ matrix.CONFIG.kernelSource.repo }}
       KERNEL_BRANCH: ${{ matrix.CONFIG.kernelSource.branch }}
       KERNEL_DEVICE: ${{ matrix.CONFIG.kernelSource.device }}
-      KERNEL_DEFCONFIG_PATH: ${{ matrix.CONFIG.kernelSource.defconfig }}
+      KERNEL_DEFCONFIG_PATH: "${{ matrix.CONFIG.kernelSource.defconfig }}"
       ENABLE_CCACHE: ${{ matrix.CONFIG.enableCcache }}
       USE_ANYKERNEL3: ${{ matrix.CONFIG.AnyKernel3.use }}
       CONFIRM_RELEASE: ${{ matrix.CONFIG.AnyKernel3.release }}
