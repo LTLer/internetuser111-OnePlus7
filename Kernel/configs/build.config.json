@@ -5,7 +5,7 @@
       "repo": "https://github.com/yaap/kernel_oneplus_sm8150",
       "branch": "sixteen",
       "device": "op7",
-      "defconfig": "nethunter_defconfig"
+      "defconfig": "gulch_defconfig"
     },
     "toolchains": [
       {
