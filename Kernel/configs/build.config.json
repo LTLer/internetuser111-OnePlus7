@@ -9,8 +9,8 @@
     },
     "toolchains": [
       {
-        "repo": "https://github.com/LineageOS/android_prebuilts_clang_kernel_linux-x86_clang-r416183b",
-        "branch": "lineage-20.0",
+        "repo": "https://github.com/rankalpha/crdroid_android_prebuilts_clang_host_linux-x86_clang-r536225",
+        "branch": "15.0",
         "name": "clang",
         "binaryEnv": [
           "bin"
@@ -26,7 +26,7 @@
       },
       {
         "repo": "https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9",
-        "branch": "lineage-19.1",
+        "branch": "linea",
         "name": "arm",
         "binaryEnv": [
           "bin"
