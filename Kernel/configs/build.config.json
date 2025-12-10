@@ -9,9 +9,8 @@
     },
     "toolchains": [
       {
-        "repo": "https://github.com/rankalpha/crdroid_android_prebuilts_clang_host_linux-x86_clang-r536225",
-        "branch": "15.0",
         "name": "clang",
+        "url": "https://github.com/android/llvm-build-configs/releases/download/clang-r550928/clang-r550928.tar.gz",
         "binaryEnv": [
           "bin"
         ]
@@ -26,7 +25,7 @@
       },
       {
         "repo": "https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9",
-        "branch": "linea",
+        "branch": "lineage-19.1",
         "name": "arm",
         "binaryEnv": [
           "bin"
@@ -49,7 +48,6 @@
         "READELF": "llvm-readelf",
         "OBJSIZE": "llvm-size",
         "STRIP": "llvm-strip",
-        "LDGOLD": "aarch64-linux-gnu-ld.gold",
         "LLVM_AR": "llvm-ar",
         "LLVM_DIS": "llvm-dis",
         "CONFIG_THINLTO": "y"
