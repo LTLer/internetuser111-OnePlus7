@@ -10,7 +10,7 @@
     "toolchains": [
       {
         "name": "clang",
-        "url": "https://github.com/android/llvm-build-configs/releases/download/clang-r550928/clang-r550928.tar.gz",
+        "url": "https://mirror.ghproxy.com/https://github.com/android/llvm-build-configs/releases/download/clang-r550928/clang-r550928.tar.gz",
         "binaryEnv": [
           "bin"
         ]
